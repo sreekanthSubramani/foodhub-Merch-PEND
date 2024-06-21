@@ -1,0 +1,28 @@
+.prod-display{
+    margin-top: 30px;
+
+}
+.prod-display p{
+    text-align: center; 
+    background-color: rgba(226, 56, 56, 0.915); 
+    color: white;
+    font-weight: bold;
+} 
+
+.pr-item-container img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.prod-display-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px,1fr));
+    margin-top: 30px;
+    gap: 30px;
+    
+}
+
+.prod-display img{
+    height: 300px;
+    width: 300px;
+}
